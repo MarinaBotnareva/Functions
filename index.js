@@ -1,3 +1,5 @@
+//ФУНКЦИЯ ВОЗВРАЩАЕТ БОЛЬШЕЕ ЧИСЛО:
+//Вариант 1:
 // let num1 = Number(prompt('Введите первое число'));
 // let num2 = Number(prompt('Введите второе число'));
 // function maxNum (a, b) {
@@ -7,6 +9,12 @@
 //   console.log (a > b ? a : b);  
 // }
 // maxNum(num1, num2);
+//Вариант 2:
+// function maxNum (a, b) {
+//   z=Math.max(a, b);
+//   console.log(z);}
+//   maxNum(3, 7); 
+//   maxNum(5, 1);
 
 // let age = Number(prompt('Твой возраст'))
 //   function isAdult (a) {
