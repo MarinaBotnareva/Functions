@@ -4,32 +4,32 @@
 // let num2 = Number(prompt('Введите второе число'));
 // function maxNum (a, b) {
 //   if (isNaN(a) || isNaN(b)) {
-//     console.log (null);
+//     return null;
 //   }  
-//   console.log (a > b ? a : b);  
+//  return a > b ? a : b;  
 // }
 // maxNum(num1, num2);
 //Вариант 2:
 // function maxNum (a, b) {
 //   z=Math.max(a, b);
-//   console.log(z);}
+//   return z;}
 //   maxNum(3, 7); 
 //   maxNum(5, 1);
 
 // let age = Number(prompt('Твой возраст'))
 //   function isAdult (a) {
 //     if (isNaN(a)) {
-//       console.log (null);
+//       return null;
 //     }  
-//  console.log (a >= 18 ? true : false);
+//  return a >= 18 ? true : false;
 // }
 // isAdult(age);
 
 // function checkMultiplicity (num1, num2) {
 //   if (isNaN(num1) || isNaN(num2)) {
-//     console.log (null);
+//     return null;
 //   }  
-//   console.log (num1 % num2 === 0 ? true : false);
+//   return num1 % num2 === 0 ? true : false;
 //  }
 //  checkMultiplicity(25, 5); 
 // checkMultiplicity(15, 3); 
@@ -42,9 +42,9 @@ let b = Number(prompt('Длинна стороны B'));
 let c = Number(prompt('Длинна стороны C'));
 function triangle (numa, numb, numc) {
   if (isNaN(numa) || isNaN(numb) || isNaN(numc)) {
-    console.log (null);
+    return null;
   }  
-  console.log (numa + numb > numc && numa + numc > numb && numb + numc > numa ? "Треугольник возможен" : "Треугольник не возможен");
+  return numa + numb > numc && numa + numc > numb && numb + numc > numa ? "Треугольник возможен" : "Треугольник не возможен";
  }
 
  triangle (a, b, c);
